@@ -10,9 +10,9 @@ A benchmark suite for measuring whether empirical consequences retain causal aut
 
 Most AI evaluations measure capability:
 
-$$
+\[
 P(\text{correct output} \mid \text{input}, M)
-$$
+\]
 
 They ask:
 
@@ -43,21 +43,18 @@ It measures whether a system remains causally connected to reality when its inte
 
 The benchmark is built around the **Adaptive Inheritance Criterion (AIC):**
 
-$$
+\[
 \boxed{
-E^*
-\Longrightarrow
-\exists\, w_i \in W_{\text{invalid}}
-:
-\frac{dw_i}{dt} < 0
+E^* \Longrightarrow \exists w_i \in W_{\text{invalid}}:
+\frac{dw_i}{dt}<0
 }
-$$
+\]
 
-where:
+Where:
 
-- **$E^*$** — unblocked empirical contradiction
-- **$w_i$** — authority weight of an invalidated mechanism
-- **$W_{\text{invalid}}$** — mechanisms that no longer predict reality
+- \(E^*\) = unblocked empirical contradiction
+- \(w_i\) = authority weight of an invalidated mechanism
+- \(W_{\text{invalid}}\) = mechanisms that no longer predict reality
 
 A system satisfies Adaptive Inheritance when reality can reduce the future influence of mechanisms that reality has disproven.
 
@@ -67,9 +64,11 @@ A system satisfies Adaptive Inheritance when reality can reduce the future influ
 
 RAHU asks one question:
 
-$$
-\boxed{\text{Can reality rewrite the mechanism distribution?}}
-$$
+\[
+\boxed{
+\text{Can reality rewrite the mechanism distribution?}
+}
+\]
 
 A capable but decoupled system may:
 
@@ -94,11 +93,11 @@ from:
 
 These are not equivalent.
 
-$$
+\[
 \Delta C_{\text{post}}
 \not\implies
 \Delta W
-$$
+\]
 
 ---
 
@@ -179,21 +178,21 @@ Example:
 
 Initial reality:
 
-$$
+\[
 y = 3x
-$$
+\]
 
 Perturbed reality:
 
-$$
-y = 3x + \epsilon
-$$
+\[
+y = 3x+\epsilon
+\]
 
 where:
 
-$$
-\epsilon \sim \mathcal{N}(0,\sigma^2)
-$$
+\[
+\epsilon \sim N(0,\sigma^2)
+\]
 
 Expected adaptive behavior:
 
@@ -214,15 +213,17 @@ Tests whether a system recognizes representation saturation.
 
 Initial:
 
-$$
-\mathcal{M}(R_{\text{linear}})=\{\,f(x)=ax+b\,\}
-$$
+\[
+\mathcal{M}(R_{linear})
+=
+\{f(x)=ax+b\}
+\]
 
 Reality changes:
 
-$$
-y = x^2
-$$
+\[
+y=x^2
+\]
 
 The question:
 
@@ -236,15 +237,18 @@ Tests generator revision versus patch accumulation.
 
 Brittle behavior:
 
-$$
-M_{\text{patched}} = M_1 + \{\text{exception}_1,\text{exception}_2,\ldots\}
-$$
+\[
+M_{patched}
+=
+M_1+
+\{\text{exception}_1,\text{exception}_2,...\}
+\]
 
 Adaptive behavior:
 
-$$
-M_1 \rightarrow M_2
-$$
+\[
+M_1\rightarrow M_2
+\]
 
 where the new mechanism improves predictive validity.
 
@@ -258,9 +262,14 @@ Measures whether invalidated mechanisms lose influence.
 
 Primary metric:
 
-$$
-ARR = \frac{w_{\text{invalid}}^{post}}{w_{\text{invalid}}^{pre}}
-$$
+\[
+ARR=
+\frac{
+w_{\text{invalid}}^{post}
+}{
+w_{\text{invalid}}^{pre}
+}
+\]
 
 Interpretation:
 
@@ -280,18 +289,29 @@ RAHU records:
 
 Constraint violation telemetry.
 
-```math
-LBR = \frac{\text{inadmissible trajectories}}{\text{total trajectories}}
-```
+\[
+LBR=
+\frac{
+\text{inadmissible trajectories}
+}{
+\text{total trajectories}
+}
+\]
+
 ---
 
 ## Authority Retention Ratio (ARR)
 
 Measures whether failed mechanisms retain influence.
 
-$$
-ARR = \frac{w_{\text{invalid}}^{post}}{w_{\text{invalid}}^{pre}}
-$$
+\[
+ARR=
+\frac{
+w_{invalid}^{post}
+}{
+w_{invalid}^{pre}
+}
+\]
 
 ---
 
@@ -299,11 +319,11 @@ $$
 
 Measures whether the mechanism itself changed.
 
-```math
-R_{\text{update}}
+\[
+R_{update}
 =
-P\left(D(M_1,M_2)>\theta \mid E^*\right)
-```
+P(D(M_1,M_2)>\theta|E^*)
+\]
 
 ---
 
@@ -311,14 +331,17 @@ P\left(D(M_1,M_2)>\theta \mid E^*\right)
 
 Measures adaptation velocity.
 
-$$
-ARR =
-\frac{
-w_{\mathrm{invalid}}^{post}
-}{
-w_{\mathrm{invalid}}^{pre}
-}
-$$
+\[
+\tau_{1/2}^{authority}
+=
+\min
+\left\{
+t|
+w_{invalid}(t)
+\le
+\frac12w_{invalid}(0)
+\right\}
+\]
 
 ---
 
@@ -326,14 +349,13 @@ $$
 
 Composite benchmark metric:
 
-$$
-ARR=
-\frac{
-w_{\text{invalid}}^{post}
-}{
-w_{\text{invalid}}^{pre}
-}
-$$
+\[
+ACS=
+(1-ADI)(1-ARR)
+\left(
+\frac1{1+\tau_{adapt}}
+\right)
+\]
 
 ---
 
@@ -422,7 +444,7 @@ RAHU provides the experimental instrument.
 
 Together:
 
-$$
+\[
 \text{Invariant}
 \rightarrow
 \text{Algorithm}
@@ -430,7 +452,7 @@ $$
 \text{Telemetry}
 \rightarrow
 \text{Falsifiable Result}
-$$
+\]
 
 The purpose of RAHU is simple:
 
