@@ -299,11 +299,11 @@ $$
 
 Measures whether the mechanism itself changed.
 
-$$
+```math
 R_{\text{update}}
 =
 P\left(D(M_1,M_2)>\theta \mid E^*\right)
-$$
+```
 
 ---
 
@@ -316,8 +316,7 @@ $$
 =
 \min
 \left\{
-t \mid
-w_{\mathrm{invalid}}(t)
+t \mid w_{\mathrm{invalid}}(t)
 \leq
 \frac{1}{2}w_{\mathrm{invalid}}(0)
 \right\}
