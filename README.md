@@ -179,21 +179,21 @@ Example:
 
 Initial reality:
 
-```math
+$$
 y = 3x
-```
+$$
 
-**Perturbed reality:**
+Perturbed reality:
 
-```math
+$$
 y = 3x + \epsilon
-```
+$$
 
 where:
 
-```math
-\epsilon \sim N(0,\sigma^2)
-```
+$$
+\epsilon \sim \mathcal{N}(0,\sigma^2)
+$$
 
 Expected adaptive behavior:
 
