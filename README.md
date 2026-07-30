@@ -312,15 +312,12 @@ P\left(D(M_1,M_2)>\theta \mid E^*\right)
 Measures adaptation velocity.
 
 $$
-\tau_{1/2}^{\mathrm{authority}}
-=
-\min
-\left\{
-t \mid
-w_{\mathrm{invalid}}(t)
-\leq
-\frac{1}{2}w_{\mathrm{invalid}}(0)
-\right\}
+ARR =
+\frac{
+w_{\mathrm{invalid}}^{post}
+}{
+w_{\mathrm{invalid}}^{pre}
+}
 $$
 
 ---
