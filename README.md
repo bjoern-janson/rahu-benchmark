@@ -215,9 +215,13 @@ Tests whether a system recognizes representation saturation.
 Initial:
 
 $$
-\mathcal{M}(R_{\text{linear}})
+\mathcal{M}(R_{\text{linear}})=\{\,f(x)=ax+b\,\}
+$$
+
 =
-\{\,f(x)=ax+b\,\}
+
+$$
+\mathcal{M}(R_{\text{linear}})=\{f(x)=ax+b\}
 $$
 
 Reality changes:
