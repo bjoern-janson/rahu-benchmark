@@ -312,9 +312,9 @@ P\left(D(M_1,M_2)>\theta \mid E^*\right)
 Measures adaptation velocity.
 
 $$
-\tau_{1/2}^{\mathrm{authority}}
+\tau_{1/2}^{authority}
 =
-\min\{t \mid w_{\mathrm{invalid}}(t) \leq \frac{1}{2}w_{\mathrm{invalid}}(0)\}
+\min(t : w_{invalid}(t) \leq \frac{1}{2}w_{invalid}(0))
 $$
 
 ---
