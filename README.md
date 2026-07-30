@@ -258,14 +258,9 @@ Measures whether invalidated mechanisms lose influence.
 
 Primary metric:
 
-\[
-ARR=
-\frac{
-w_{\text{invalid}}^{post}
-}{
-w_{\text{invalid}}^{pre}
-}
-\]
+$$
+ARR = \frac{w_{\text{invalid}}^{post}}{w_{\text{invalid}}^{pre}}
+$$
 
 Interpretation:
 
