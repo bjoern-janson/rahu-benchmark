@@ -236,17 +236,8 @@ Tests generator revision versus patch accumulation.
 
 Brittle behavior:
 
-$$
-M_{\text{patched}}
-=
-M_1
-+
-\{
-\text{exception}_1,
-\text{exception}_2,
-\ldots
-\}
-$$
+$$ M_{\text{patched}
+M_1 + { \text{exception}_1, \text{exception}_2, \ldots } $$
 
 Adaptive behavior:
 
