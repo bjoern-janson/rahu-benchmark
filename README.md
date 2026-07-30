@@ -314,12 +314,7 @@ Measures adaptation velocity.
 $$
 \tau_{1/2}^{\mathrm{authority}}
 =
-\min
-\left\{
-t \mid w_{\mathrm{invalid}}(t)
-\leq
-\frac{1}{2}w_{\mathrm{invalid}}(0)
-\right\}
+\min\{t \mid w_{\mathrm{invalid}}(t) \leq \frac{1}{2}w_{\mathrm{invalid}}(0)\}
 $$
 
 ---
