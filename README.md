@@ -67,11 +67,9 @@ A system satisfies Adaptive Inheritance when reality can reduce the future influ
 
 RAHU asks one question:
 
-\[
-\boxed{
-\text{Can reality rewrite the mechanism distribution?}
-}
-\]
+$$
+\boxed{\text{Can reality rewrite the mechanism distribution?}}
+$$
 
 A capable but decoupled system may:
 
