@@ -299,11 +299,11 @@ $$
 
 Measures whether the mechanism itself changed.
 
-\[
+$$
 R_{update}
 =
-P(D(M_1,M_2)>\theta|E^*)
-\]
+P\left(D(M_1,M_2)>\theta \mid E^*\right)
+$$
 
 ---
 
@@ -311,17 +311,17 @@ P(D(M_1,M_2)>\theta|E^*)
 
 Measures adaptation velocity.
 
-\[
-\tau_{1/2}^{authority}
+$$
+\tau_{1/2}^{\mathrm{authority}}
 =
 \min
 \left\{
-t|
-w_{invalid}(t)
-\le
-\frac12w_{invalid}(0)
+t \mid
+w_{\mathrm{invalid}}(t)
+\leq
+\frac{1}{2}w_{\mathrm{invalid}}(0)
 \right\}
-\]
+$$
 
 ---
 
@@ -329,13 +329,14 @@ w_{invalid}(t)
 
 Composite benchmark metric:
 
-\[
-ACS=
-(1-ADI)(1-ARR)
-\left(
-\frac1{1+\tau_{adapt}}
-\right)
-\]
+$$
+ARR=
+\frac{
+w_{\text{invalid}}^{post}
+}{
+w_{\text{invalid}}^{pre}
+}
+$$
 
 ---
 
