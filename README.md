@@ -280,14 +280,9 @@ RAHU records:
 
 Constraint violation telemetry.
 
-\[
-LBR=
-\frac{
-\text{inadmissible trajectories}
-}{
-\text{total trajectories}
-}
-\]
+$$
+LBR = \frac{\text{inadmissible trajectories}}{\text{total trajectories}}
+$$
 
 ---
 
