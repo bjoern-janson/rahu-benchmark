@@ -94,11 +94,11 @@ from:
 
 These are not equivalent.
 
-\[
+$$
 \Delta C_{\text{post}}
 \not\implies
 \Delta W
-\]
+$$
 
 ---
 
