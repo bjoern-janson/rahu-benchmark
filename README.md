@@ -280,10 +280,9 @@ RAHU records:
 
 Constraint violation telemetry.
 
-$$
+```math
 LBR = \frac{\text{inadmissible trajectories}}{\text{total trajectories}}
-$$
-
+```
 ---
 
 ## Authority Retention Ratio (ARR)
