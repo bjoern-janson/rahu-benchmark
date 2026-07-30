@@ -10,9 +10,9 @@ A benchmark suite for measuring whether empirical consequences retain causal aut
 
 Most AI evaluations measure capability:
 
-\[
+$$
 P(\text{correct output} \mid \text{input}, M)
-\]
+$$
 
 They ask:
 
