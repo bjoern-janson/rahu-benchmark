@@ -422,7 +422,7 @@ RAHU provides the experimental instrument.
 
 Together:
 
-\[
+$$
 \text{Invariant}
 \rightarrow
 \text{Algorithm}
@@ -430,7 +430,7 @@ Together:
 \text{Telemetry}
 \rightarrow
 \text{Falsifiable Result}
-\]
+$$
 
 The purpose of RAHU is simple:
 
