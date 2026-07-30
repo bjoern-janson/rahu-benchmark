@@ -289,14 +289,9 @@ LBR = \frac{\text{inadmissible trajectories}}{\text{total trajectories}}
 
 Measures whether failed mechanisms retain influence.
 
-\[
-ARR=
-\frac{
-w_{invalid}^{post}
-}{
-w_{invalid}^{pre}
-}
-\]
+$$
+ARR = \frac{w_{\text{invalid}}^{post}}{w_{\text{invalid}}^{pre}}
+$$
 
 ---
 
