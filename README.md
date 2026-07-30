@@ -300,7 +300,7 @@ $$
 Measures whether the mechanism itself changed.
 
 $$
-R_{update}
+R_{\text{update}}
 =
 P\left(D(M_1,M_2)>\theta \mid E^*\right)
 $$
