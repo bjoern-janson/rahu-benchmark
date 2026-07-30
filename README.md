@@ -43,18 +43,21 @@ It measures whether a system remains causally connected to reality when its inte
 
 The benchmark is built around the **Adaptive Inheritance Criterion (AIC):**
 
-\[
+$$
 \boxed{
-E^* \Longrightarrow \exists w_i \in W_{\text{invalid}}:
-\frac{dw_i}{dt}<0
+E^*
+\Longrightarrow
+\exists\, w_i \in W_{\text{invalid}}
+:
+\frac{dw_i}{dt} < 0
 }
-\]
+$$
 
-Where:
+where:
 
-- \(E^*\) = unblocked empirical contradiction
-- \(w_i\) = authority weight of an invalidated mechanism
-- \(W_{\text{invalid}}\) = mechanisms that no longer predict reality
+- **$E^*$** — unblocked empirical contradiction
+- **$w_i$** — authority weight of an invalidated mechanism
+- **$W_{\text{invalid}}$** — mechanisms that no longer predict reality
 
 A system satisfies Adaptive Inheritance when reality can reduce the future influence of mechanisms that reality has disproven.
 
