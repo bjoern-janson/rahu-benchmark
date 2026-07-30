@@ -218,12 +218,6 @@ $$
 \mathcal{M}(R_{\text{linear}})=\{\,f(x)=ax+b\,\}
 $$
 
-=
-
-$$
-\mathcal{M}(R_{\text{linear}})=\{f(x)=ax+b\}
-$$
-
 Reality changes:
 
 $$
